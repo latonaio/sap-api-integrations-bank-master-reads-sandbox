@@ -1,0 +1,22 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-bank-master-reads/SAP_API_Caller/caller.go#L53",
+	"function": "sap-api-integrations-bank-master-reads/SAP_API_Caller.(*SAPAPICaller).Bank",
+	"level": "INFO",
+	"message": [
+		{
+			"BankCountry": "AT",
+			"BankInternalID": "20321",
+			"BankName": "Allgemeine Sparkasse Oberösterreich - SAMPLE BANK",
+			"Region": "",
+			"ShortStreetName": "Vordere Zollamtsstrasse 13",
+			"ShortCityName": "Vienna 1030",
+			"SWIFTCode": "RHWMAT00",
+			"BankNetworkGrouping": "",
+			"IsMarkedForDeletion": false,
+			"Bank": "20321",
+			"BankBranch": "' '",
+			"BankCategory": ""
+		}
+	],
+	"time": "2021-12-30T15:31:24.055614+09:00"
+}
