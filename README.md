@@ -42,7 +42,7 @@ Latona および AION の SAP 関連リソースでは、Inputs フォルダ下�
 * sample.jsonの記載例(1)  
 
 accepter において 下記の例のように、データの種別（＝APIの種別）を指定します。  
-ここでは、"Header" が指定されています。    
+ここでは、"Bank" が指定されています。    
   
 ```
 	"api_schema": "Bank",
@@ -88,7 +88,7 @@ func (c *SAPAPICaller) AsyncGetBankMaster(bankCountry, bank string, accepter []s
 
 ## Output  
 本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。  
-以下の sample.json の例は、SAP 計画手配 の ヘッダデータ が取得された結果の JSON の例です。  
+以下の sample.json の例は、SAP 銀行マスタ の 銀行データ が取得された結果の JSON の例です。  
 以下の項目のうち、"BankCountry" ～ "BankCategory" は、/SAP_API_Output_Formatter/type.go 内 の Type Bank {} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
 
 ```
