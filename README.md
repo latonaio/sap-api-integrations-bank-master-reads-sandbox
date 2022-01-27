@@ -87,9 +87,9 @@ func (c *SAPAPICaller) AsyncGetBankMaster(bankCountry, bank string, accepter []s
 ```
 
 ## Output  
-本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。  
+本マイクロサービスでは、[golang-logging-library-for-sap](https://github.com/latonaio/golang-logging-library-for-sap) により、以下のようなデータがJSON形式で出力されます。  
 以下の sample.json の例は、SAP 銀行マスタ の 銀行データ が取得された結果の JSON の例です。  
-以下の項目のうち、"BankCountry" ～ "BankCategory" は、/SAP_API_Output_Formatter/type.go 内 の Type Bank {} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
+以下の項目のうち、"BankCountry" ～ "BankCategory" は、/SAP_API_Output_Formatter/type.go 内 の Type Bank {} による出力結果です。"cursor" ～ "time"は、golang-logging-library-for-sap による 定型フォーマットの出力結果です。  
 
 ```
 {
@@ -112,8 +112,6 @@ func (c *SAPAPICaller) AsyncGetBankMaster(bankCountry, bank string, accepter []s
 			"BankCategory": ""
 		}
 	],
-	"time": "2021-12-30T15:31:24.055614+09:00"
+	"time": "2022-01-27T17:33:40+09:00"
 }
-
-
 ```
